@@ -1,0 +1,15 @@
+{
+  "name": "weather-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/andela-unkwocha/weather-app",
+  "authors": [
+    "Udo <writeudo@gmail.com>"
+  ],
+  "description": "Weather App",
+  "main": "server.js",
+  "keywords": [
+    "weather",
+    "app"
+  ],
+  "license": "MIT"
+}
