@@ -1,0 +1,51 @@
+
+body {
+  color: #333;
+  background-image: url(../img/bg.jpg) !important;
+  background-repeat: repeat;
+  height: 700px;
+  overflow: none;
+}
+
+.main-container {
+
+  .app-title {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+  }
+
+  .search-box {
+    display: block;
+    width: 100%;
+    padding:10px 15px;
+    outline: none;
+    border:none;
+  }
+
+
+  .weather-card {
+
+    padding:20px !important;
+
+    sup {
+      font-size:12px !important;
+      display: inline-block;
+      margin-top: -50px;
+    }
+    
+    .left {
+      float: left;
+      width: 45%;
+    }
+
+    .right {
+      float: right;
+      width: 45%;
+      text-align: right;
+    }
+
+  }
+
+
+}

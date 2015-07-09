@@ -11,5 +11,11 @@
     "weather",
     "app"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "angular-ui-router": "~0.2.15",
+    "angularjs": "~1.4.2",
+    "normalize.css": "~3.0.3",
+    "lumx": "~0.3.62"
+  }
 }

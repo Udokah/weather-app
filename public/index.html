@@ -1,0 +1,37 @@
+<!doctype HTML>
+<html ng-app="weatherApp">
+<head>
+  <title>Weather App</title>
+  <meta name="charset" content="utf-8">
+
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+  <link rel="stylesheet" href="bower_components/lumx/dist/lumx.css">
+  <link href='//fonts.googleapis.com/css?family=Fredoka+One|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>  
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="app/css/style.css">  
+</head>
+<body>
+
+  <div ui-view></div>
+  
+  <!-- Javascript Dependencies -->
+
+  <!-- Lumx -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/velocity/velocity.js"></script>
+  <script src="bower_components/moment/min/moment-with-locales.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/lumx/dist/lumx.js"></script>
+
+  <!-- Angular -->
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <!-- Source Files -->
+  <script src="app/js/controllers/maincontroller.js"></script>
+  <script src="app/js/directives/googleplace.js"></script>
+  <script src="app/js/app.js"></script>
+</body>
+</html>
