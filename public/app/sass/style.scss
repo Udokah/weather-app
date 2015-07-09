@@ -17,10 +17,11 @@ body {
 
   .search-box {
     display: block;
-    width: 100%;
+    width: 90%;
     padding:10px 15px;
     outline: none;
     border:none;
+    float: left;
   }
 
 
@@ -36,12 +37,12 @@ body {
     
     .left {
       float: left;
-      width: 45%;
+      width: 65%;
     }
 
     .right {
       float: right;
-      width: 45%;
+      width: 35%;
       text-align: right;
     }
 

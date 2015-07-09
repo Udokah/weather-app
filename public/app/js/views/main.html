@@ -12,6 +12,7 @@
         <div flex-item="12">
           <div class="card tc-black-1 p+">
             <input type="input" placeholder="Enter a city in Japan" class="search-box" ng-model="search" googleplace />
+            <button class="btn btn--m btn--grey btn--icon" ng-click="doSearch()" lx-ripple><i class="mdi mdi-magnify"></i></button>
           </div>
         </div>  
       </div>
@@ -22,9 +23,9 @@
         <div flex-item="12">
           <div class="card tc-black-1 p+ weather-card">
             <div class="left">
-              <span class="fs-headline display-block tc-grey-800">Tokyo, Japan</span>
-              <span class="fs-title display-block tc-grey-700">Wednesday</span>
-              <span class="fs-body-1 display-block tc-grey-700">Light showers</span><br>
+              <span class="fs-title display-block tc-grey-800">{{ place.formatted_address }}</span>
+              <span class="fs-body-1 display-block tc-grey-700">Wednesday</span>
+              <span class="fs-body-2 display-block tc-grey-700">Light showers</span><br>
               <span class="fs-display-2 display-block tc-grey-700">45 <sup>F</sup></span>
             </div>
             <div class="right">
