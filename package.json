@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andela-unkwocha/weather-app.git"
+  },
+  "author": "Nkwocha Udo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-unkwocha/weather-app/issues"
+  },
+  "homepage": "https://github.com/andela-unkwocha/weather-app",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}
