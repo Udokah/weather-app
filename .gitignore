@@ -1,0 +1,8 @@
+# node modules
+node_modules
+
+# bower
+public/bower_components
+
+# Mac OS
+.DS_Store
