@@ -6,3 +6,5 @@ public/bower_components
 
 # Mac OS
 .DS_Store
+
+public/app/css
