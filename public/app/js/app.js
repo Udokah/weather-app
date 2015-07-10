@@ -3,8 +3,10 @@
 var app = angular.module('weatherApp',[
   'ui.router',
   'lumx',
+  'weatherApp.config',
   'weatherApp.controllers',
-  'weatherApp.directives'
+  'weatherApp.directives',
+  'weatherApp.services'
   ]);
 
 

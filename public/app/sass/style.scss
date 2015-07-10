@@ -1,7 +1,7 @@
 
 body {
   color: #333;
-  background-image: url(../img/bg.jpg) !important;
+  background-image: url(../img/cloud2.png) !important;
   background-repeat: repeat;
   height: 700px;
   overflow: none;
@@ -11,7 +11,7 @@ body {
 
   .app-title {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     font-family: 'Fredoka One', cursive;
   }
 
@@ -28,6 +28,10 @@ body {
   .weather-card {
 
     padding:20px !important;
+
+    #progress {
+      clear: both;
+    }
 
     sup {
       font-size:12px !important;
@@ -46,6 +50,10 @@ body {
       text-align: right;
     }
 
+  }
+
+  .footer {
+    display: none;
   }
 
 
