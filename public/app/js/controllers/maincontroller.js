@@ -11,11 +11,7 @@ controller.controller('MainController', ['$scope', 'Weather', 'LxProgressService
     var lat = $scope.place.geometry.location.A;
     var lon = $scope.place.geometry.location.F;
     var promise = Weather.cityByGeo(lat, lon, type);
-    if(type !== 'today'){
-      $scope.date = 'Last Week';
-    } else {
-      $scope.date = 'Today';
-    }
+    (type !== 'today') ? $scope.date = 'Last Week' : $scope.date = 'Today';
     promise.success(function(data, status, headers, config){
       LxProgressService.linear.hide();
       $scope.showResult = true;
