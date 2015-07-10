@@ -6,6 +6,3 @@ public/bower_components
 
 # Mac OS
 .DS_Store
-
-# Transpiled CSS
-public/app/css
