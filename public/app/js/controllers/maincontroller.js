@@ -16,6 +16,8 @@ controller.controller('MainController', ['$scope', 'Weather', 'LxProgressService
       LxProgressService.linear.hide();
       $scope.showResult = true;
       $scope.weather = data;
+      var kTemp = parseInt(weather.main.temp);
+      $scope.temperature = kTemp - 273.15;
       $scope.weather.description = data.weather[0].description;
     });
   };
