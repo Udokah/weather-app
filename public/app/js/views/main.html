@@ -10,11 +10,11 @@
       <div flex-container="row" class="p+"> 
         <!-- Main Content here -->
         <div flex-item="12">
-          <div class="card tc-black-1 p+">
+          <form ng-submit="doSearch()" class="card tc-black-1 p+">
             <input type="input" placeholder="Enter a city in Japan" class="search-box" ng-model="search" googleplace />
             <button class="btn btn--m btn--grey btn--icon" ng-click="doSearch()" lx-ripple><i class="mdi mdi-magnify"></i></button>
             <div id="progress"></div>
-          </div>
+          </form>
         </div>  
       </div>
 
